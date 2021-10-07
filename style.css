@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font:normal, 16px, 'Open-Sans';
+  background: rgb(199, 195, 195);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+.info{
+  margin-bottom: 15px;
+}
+
+a:hover{
+  color: white;
+  background: black;
+  border-radius: 4px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+}
+.container{
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.social{
+  background: yellow;
+}
+
+.bg-blue{
+  background:  rgb(145, 145, 204);
+}
+
+.bg-yellow{
+  background:  rgb(225, 226, 154);
+}
+
+.bg-green{
+  background:  rgb(152, 216, 152);
+}
+
+.card{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.card h2{
+  margin-bottom: 10px;
+}
+
+.info h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 700px){
+  .info{
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text{
+  margin-left: 40px;
+}
+
+.info-text h4{
+  margin-bottom: 10px;
+}
+
+.list{
+  padding: 0px 20px;
+}
+
+.list li{
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.contact h2{
+  text-align: center;
+}
+
+.form-group label{
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color:black;
+  padding: 10px 0px 15px;
+  outline: inherit;
+  background: transparent;
+  outline: none;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row >.form-group{
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row >.form-group:last-child{
+  margin: 0;
+}
+
+.btn{
+  background: black;
+  border: none;
+  font-family: inherit;
+  color: white;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 15px;
+
+}
+
+.btn:hover{
+  opacity: 0.7;
+  transition: ease 0.5s;
+}
